@@ -1,0 +1,17 @@
+version: "2"
+services:
+  jupyter-notebook:
+    build: .
+    image: packt/predict-steering-angle
+    container_name: predict-steering-angle
+    ports:
+      - "8888:8888"
+      - "8889:8889"
+      - "8890:8890"
+      - "8891:8891"
+    environment:
+      - LC_ALL=en_US.utf8
+    volumes:
+      - /Users/markstrefford/Development/Packt/1.-Learning-Python-AI-by-Example/4. Predicting the steering angle of a car/Source:/opt/source
+    working_dir:  /root
+    entrypoint: jupyter notebook --port=8888 --ip=* --allow-root --no-browser --NotebookApp.token='' --NotebookApp.iopub_data_rate_limit=1000000000000000

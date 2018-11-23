@@ -1,0 +1,1 @@
+from .opencv_face_recognition import face_recognition
