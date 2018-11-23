@@ -1,0 +1,38 @@
+# IDE
+.idea/*
+
+# Python
+__pycache__
+.ipynb_checkpoints
+*.p
+
+# General
+# slides/
+.DS_Store
+*.zip
+*.JPG
+*.jpg
+*.txt
+*.gz
+
+# Module 1
+*db
+lda_model*
+dictionary
+corpus
+
+# Module 2
+access-policy.json
+lfw/
+*.prototxt
+*.caffemodel
+nn4.small2.v1.t7
+my_photos/
+
+# Module 3
+taxi_data
+
+# Module 4
+logs/events.out*
+*.mp4
+
