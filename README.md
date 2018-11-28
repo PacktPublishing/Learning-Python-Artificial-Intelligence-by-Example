@@ -43,7 +43,7 @@ This course has the following software requirements:
 
 It is recommended to use Anaconda, however if you so wish you can manual create environments using Python 3.6 
 
-The following main libraries are required: 
+# The following main libraries are required: 
 
 ●	OpenCV 3.4 and opencv-python
 
@@ -58,7 +58,8 @@ The following main libraries are required:
 ●	Jupyter notebook (note that this is included in Anaconda)
 
 This course has been tested on the following system configuration:
-Mac OSX:
+
+# Mac OSX:
 
 ●	OS: Mac OSX 10.14.1 (Mojave)
 
@@ -68,7 +69,7 @@ Mac OSX:
 
 ●	Hard Disk Space: 50GB
 
-Windows:
+# Windows:
 
 ●	OS: Windows 10, and Ubuntu 16.04 LTS
 
@@ -77,7 +78,8 @@ Windows:
 ●	Memory: 16GB
 
 ●	Hard Disk Space: 50GB
-Google Cloud:
+
+# Google Cloud:
 
 ●	OS Ubuntu 16.04 LTS
 
@@ -89,9 +91,9 @@ Google Cloud:
 
 ●	Video Card: Nvidia K80
 
-NOTE: The course relies heavily on Jupyter Notebooks so it is essential that you have access to a browser to view and run these.  
+# NOTE: The course relies heavily on Jupyter Notebooks so it is essential that you have access to a browser to view and run these.  
 
-OTHER INFORMATION
+# OTHER INFORMATION
 
 •	Section 2, video 3 relies on the use of AWS Rekognition.  To fully complete this video you will need an AWS account with a valid payment card.  Note that during development of this course, the AWS charges did not exceed $10, but it is essential that you set up billing alerts and notifications to manage your spend accordingly.  
 
